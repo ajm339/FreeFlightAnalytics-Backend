@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   # You can have the root of your site routed with "root"
   root 'landings#index'
 
-   match '/recordscreen', to: 'landings#make_gif', via: :post
+  match '/recordscreen', to: 'landings#make_gif', via: :post
   
   #->Prelang (user_login:devise/stylized_paths)
   devise_scope :user do

@@ -8,8 +8,6 @@ Bundler.require(*Rails.groups)
 
 module EagleEyeAnalyticsBackend
   class Application < Rails::Application
-    ENV['aws_access_key_id']='AKIAJ2ZWU74X43EVFIAQ'
-    ENV['aws_secret_access_key']='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'
-    ENV['aws_bucket']='freeflightanalytics'
+
   end
 end

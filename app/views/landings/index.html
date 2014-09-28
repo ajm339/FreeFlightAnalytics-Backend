@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+		<meta charset="utf-8">
+		<title>FreeFlight Analytics</title>
+        <link rel="icon" type="image/png" href="/index/logo.png">
+		<meta name="generator" content="Bootply" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<link href="/index/css/bootstrap.min.css" rel="stylesheet">
+		<!--[if lt IE 9]>
+			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+		<link href="/index/css/styles.css" rel="stylesheet">
+	</head>
+	<body>
+<!-- Wrap all page content here -->
+<div id="wrap">
+
+<header class="masthead">
+    <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+          <div id="logo_div">
+          <img src="/index/logo.png" id="logo" alt="logo"/>
+          </div>
+          <h1 id="title_h1">FreeFlight Analytics</h1>
+      </div>
+      <div class="col-sm-6">
+        <div class="pull-right hidden-xs">
+          <ul class="nav navbar-nav navbar-right">
+          <li><a href="#topfront" class="totop">Home</a></li>
+          <li><a class="navtop" id="productsclick" href="#product_top">Products</a></li>
+          <li><a class="navtop" href="#">Sign In</a></li>
+        </ul>
+        </div>
+      </div>
+    </div>
+    </div>
+</header>
+
+<div class="container" id="topfront">
+  <div class="col-sm-10 col-sm-offset-1" id="top_text">
+    <div class="page-header text-center">
+      <h1>Modular Open Source Analytics</h1>
+    </div>
+
+    <p class="lead text-center">
+        Get the insight you need on your site, with the help of thousands of developers worldwide.<br/><br/><br/>
+        <a id="signupbutton" class="bth btn-lg">Sign Up</a>
+    </p>
+  </div>
+</div>
+
+<div class="container free_div">
+  <div class="col-sm-12 left" class="free_inner_div">
+      <div class="free_div_1">
+      <h1>Always Free</h1>
+          <p>You can always get our analytics code at no cost to you or your company.<br/></p>
+      </div>
+
+
+      <img class="figure_1" src="/index/figure_1.png" alt="figure_1">
+
+  </div>
+</div>
+
+
+    <div class="container" class="free_div">
+      <div class="col-sm-12 left" class="free_inner_div" id="add_line">
+          <div class="free_div_1" id="right_text">
+          <h1>Easily Integratable</h1>
+              <p>Place some scripts in your front end, instantly create a pre-made analytics server for your site.<br/></p>
+              <p id="note">*If you already have code for analytics, see our guide for integrating your analytics into our dashboard.</p>
+          </div>
+
+          <img class="figure_2" src="/index/server.png" alt="figure_2">
+
+  </div>
+</div>
+
+<div class="divider" id="product_top"></div>
+
+
+<section class="bg-1" id="transparent">
+  <div class="col-sm-6 col-sm-offset-3 text-center"><h2 style="padding:20px;background-color:rgba(62, 175, 191, 0.8); font-weight:400;">Our Products</h2></div>
+</section>
+
+<div class="divider"></div>
+
+
+<div class="container free_div" id="section3">
+  	<div class="col-sm-12 col-sm-offset-0 free_inner_div">
+      <div class="free_div_1">
+          <h1>Session Playback</h1>
+
+          <p>
+          We will play a video back for you so you can see exactly how users interact with your site.
+          </p>
+
+      </div>
+
+      <img class="product_image" src="/index/front_image.png" class="img-responsive" alt="front_image">
+
+
+  	</div><!--/col-->
+</div><!--/container-->
+
+<div class="divider"></div>
+
+
+<div class="container free_div" id="section6">
+  	<div class="col-sm-12 col-sm-offset-0 free_inner_div">
+      <div class="free_div_1" id="heat_div">
+          <h1 id="text_product">Heatmaps</h1>
+
+          <p>
+          See a heatmap of mouse activity on your site. Overlay the activity of as many users as you want.
+          </p>
+
+      </div>
+
+        <img id="heat_img" class="product_image" src="/index/heatmap.png" class="img-responsive" alt="front_image">
+
+
+  	</div><!--/col-->
+</div><!--/container-->
+
+
+
+<div class="divider"></div>
+
+
+
+</div><!--/wrap-->
+
+<div id="footer">
+  <div class="container">
+    <p class="text-muted">FreeFlight Analytics 2014</p>
+  </div>
+</div>
+
+<ul class="nav pull-right scroll-top">
+    <li><a href="#topfront" class="totop" title="Scroll to top">UP</a></li>
+</ul>
+
+	<!-- script references -->
+		<script src="/index/js/bootstrap.min.js"></script>
+		    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <script src="/index/jquery.scrollTo-1.4.2-min.js"></script>
+
+        <script>
+        $(document).ready(function() {
+            $("#productsclick").click(function() {
+                $('html, body').animate({
+                    scrollTop: $("#product_top").offset().top
+                }, 500);
+            });
+
+            $(".totop").click(function() {
+                $('html, body').animate({
+                    scrollTop: $("#topfront").offset().top
+                }, 500);
+            });
+        });
+
+        </script>
+	</body>
+</html>
