@@ -7,7 +7,7 @@ class GifWorker
   include Sidekiq::Worker
   sidekiq_options :retry => 3
 
-  def perform(delay, images)
+  def perform(delay, image_blobs)
 
     begin
       AWS.config({:access_key_id => ENV['aws_access_key_id'], :secret_access_key => ENV['aws_secret_access_key']})
@@ -16,20 +16,17 @@ class GifWorker
       write_bucket.acl = :public_read
 
       # image = MiniMagick::Image.open(image_url)
-      gifs = Magick::ImageList.new
-      gifs.delay = delay
-      images.each do |t|
-        period_index = t.index['.']
-        name = t[0..t[period_index]]
-        gifs.push(Magick::Image.new(t).write(name + '.gif'))
+      # make an image list to convert/write as gif eventually
+      image_list = Magick::ImageList.new
+      image_list.delay = delay
+      image_blobs.each do |t|
+        image = Magick::Image::from_blob(t)
+        image_list << image
       end
 
-      # image_list = Magick::ImageList.new
-      # image_list.delay = delay
-
-
-      x = Digest::SHA1.hexdigest(gifs.first) + ".gif"
-      write_bucket.objects[x].write(gifs)
+      image_list.write("animated.gif")
+      # x = Digest::SHA1.hexdigest(gifs.first) + ".gif"
+      # write_bucket.objects[x].write(gifs)
 
       puts '==========='
       puts x.inspect
