@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="3264636148">
+    <data-source source="LOCAL" name="Rails eagle_eye_analytics_backend: development" uuid="294004fe-31e2-403a-81ca-3004b9d8aee7">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:eagle_eye_analytics_backend_development</jdbc-url>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/postgresql-9.2-1002.jdbc4.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="Rails eagle_eye_analytics_backend: test" uuid="44a1d6e4-2dd5-4ade-abb9-a5217db22785">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:eagle_eye_analytics_backend_test</jdbc-url>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/postgresql-9.2-1002.jdbc4.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+    <data-source source="LOCAL" name="Rails eagle_eye_analytics_backend: production" uuid="e0c57913-a08e-4dfc-8019-f4d363d28ee7">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:eagle_eye_analytics_backend_production</jdbc-url>
+      <user-name>eagle_eye_analytics_backend</user-name>
+      <user-password>df96df8fdf97df8adfefdfe4dffcdff1df8ddfefdfebdfeddfe6dfefdff5dfefdff3dfefdff5dfebdfe4dfebdfe6dff3dffedfe3dfe9dff9dff5dfe8dfebdfe9dfe1dfefdfe4dfeedff5dfeedfebdffedfebdfe8dfebdff9dfefdff5dffadfebdff9dff9dffddfe5dff8dfeedf8ddff7df8adf8fdf94</user-password>
+      <libraries>
+        <library>
+          <url>file://$USER_HOME$/Library/Preferences/RubyMine50/jdbc-drivers/postgresql-9.2-1002.jdbc4.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
+</project>
+

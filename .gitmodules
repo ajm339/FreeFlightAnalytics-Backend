@@ -1,0 +1,3 @@
+[submodule "app/assets/javascripts/FreeFlightAnalytics-Recording"]
+	path = app/assets/javascripts/FreeFlightAnalytics-Recording
+	url = https://github.com/agilgur5/FreeFlightAnalytics-Recording.git
