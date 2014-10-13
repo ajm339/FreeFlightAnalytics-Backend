@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" format="xml" hash="3264636148">
+  <component name="DataSourceManagerImpl" format="xml" hash="3773791188">
     <data-source source="LOCAL" name="Rails eagle_eye_analytics_backend: development" uuid="294004fe-31e2-403a-81ca-3004b9d8aee7">
       <driver-ref>postgresql</driver-ref>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>

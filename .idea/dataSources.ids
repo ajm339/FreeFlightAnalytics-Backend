@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails eagle_eye_analytics_backend: development" uuid="294004fe-31e2-403a-81ca-3004b9d8aee7">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails eagle_eye_analytics_backend: test" uuid="44a1d6e4-2dd5-4ade-abb9-a5217db22785">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails eagle_eye_analytics_backend: production" uuid="e0c57913-a08e-4dfc-8019-f4d363d28ee7">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>
