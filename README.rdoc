@@ -1,28 +1,7 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+See http://www.freeflightanalytics.com for all information.
 
-Things you may want to cover:
+This repository is a sample backend (Ruby on Rails) for the modular analytics platform FreeFlightAnalytics.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+Check out https://github.com/agilgur5/FreeFlightAnalytics-Recording for the frontend code.
