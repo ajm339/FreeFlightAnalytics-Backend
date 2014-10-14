@@ -1,7 +1,0 @@
-== README
-
-See http://www.freeflightanalytics.com for all information.
-
-This repository is a sample backend (Ruby on Rails) for the modular analytics platform FreeFlightAnalytics.
-
-Check out https://github.com/agilgur5/FreeFlightAnalytics-Recording for the frontend code.
